@@ -1,38 +1,129 @@
-# create-svelte
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/Casm101/fraction-books">
+    <img src="https://safeguru.com/favicon/apple-touch-icon.png" alt="Fraction Books Logo" width="80" height="80">
+  </a>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+  <h3 align="center">Fraction Books</h3>
 
-## Creating a project
+  <p align="center">
+    This repo contains the site and TS/JS version of the fraction books codebase. It may be extended in the future to include other ported versions for other languages sucha as Python or C.
+    <br />
+    <a href="https://github.com/Casm101/fraction-books"><strong>Read the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Casm101/fraction-books">Visit site</a>
+    ·
+    <a href="https://github.com/Casm101/fraction-books/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Casm101/fraction-books/issues">Request Feature/Language</a>
+  </p>
+</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+	- [Built With:](#built-with)
+- [Getting Started](#getting-started)
+	- [Prerequisites](#prerequisites)
+	- [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+<!-- Image of project idea -->
+<!--[![Product Name Screen Shot][product-screenshot]](https://safeguru.com)-->
+
+
+### Built With:
+
+* [Svelte - TypeScript]()
+* [Svelte Kit]()
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and some help on how to install them.
+* pnpm and nvm
+```sh
+npm install pnpm@latest -g
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+### Installation
+ 
+1. Clone the fraction-books repo
+```sh
+git clone https://github.com/Casm101/fraction-books
+```
+2. Install PNPM packages
+```sh
+pnpm install --force
+```
+3. Run the development server (localhost)
+```sh
+pnpm run dev:app
+```
+4. The development server will be accessable via:
+```sh
+http://127.0.0.1:5174/
 ```
 
-## Building
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
+<!-- USAGE EXAMPLES -->
+## Usage
 
-You can preview the production build with `npm run preview`.
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/Casm101/fraction-books/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Create a new branch using the following scheme: (`git branch YOUR_NAME/REASON/SPECIFIC_DETAIL`)
+2. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request and a Reviewer
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+
+Project Link: [https://github.com/Casm101/fraction-books](https://github.com/Casm101/fraction-books)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* [Christian Smith Mantas](https://github.com/)
